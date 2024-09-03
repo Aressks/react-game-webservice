@@ -1,0 +1,9 @@
+.slider {
+  margin-bottom: 80px;
+}
+
+.slider hr {
+  border: none;
+  border-top: 4px dotted rgb(71, 71, 71);
+  margin-top: 50px;
+}

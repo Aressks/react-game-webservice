@@ -1,0 +1,90 @@
+.login-form {
+  position: relative;
+  max-height: 600px;
+  width: 20rem;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #4f4f4f;
+  border-radius: 10px;
+  background-color: #2b2b2b;
+
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.show-password {
+  position: absolute;
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+.show-password img {
+  width: 40px;
+}
+
+.input-error {
+  border: 2px solid red;
+}
+
+.error {
+  color: rgb(255, 25, 0);
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(55, 100, 224);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.register {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.register a {
+  color: rgb(255, 196, 102);
+  text-decoration-thickness: 2px;
+  font-size: 16px;
+}

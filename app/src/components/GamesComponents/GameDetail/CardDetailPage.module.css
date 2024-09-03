@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.content {
+  margin-top: 10rem;
+  text-align: end;
+  padding: 0px 20px;
+  width: 30%;
+  margin-left: auto;
+}
+
+.preview img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.info-company {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+  justify-content: end;
+}
+
+.info-company h2 {
+  font-size: 18px;
+}
+
+.promo {
+  width: 50%;
+  margin-left: 5rem;
+  padding: 20px;
+}
+
+.promo h1 {
+  text-decoration: underline;
+}
+
+.promo-block {
+  border-radius: 5px;
+  box-shadow: 12px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+  margin: auto;
+  margin-top: 3rem;
+  padding: 10px;
+
+  font-size: 18px;
+}
+
+.button-buy {
+  margin-bottom: 10px;
+  padding: 10px;
+
+  color: rgb(255, 251, 240);
+
+  border: none;
+  background-color: rgb(38, 107, 163);
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button-buy:hover {
+  transform: scale(1.02);
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button {
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .content {
+    margin-top: 2rem;
+    text-align: end;
+    padding: 0px 10px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .info-company {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-company h2 {
+    font-size: 16px;
+  }
+
+  .promo {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .button {
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-buy {
+    margin-bottom: 10px;
+    padding: 10px;
+
+    color: rgb(255, 251, 240);
+
+    border: none;
+    background-color: rgb(38, 107, 163);
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
